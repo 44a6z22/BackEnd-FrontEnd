@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style/style.css" />
+    <script type="text/javascript" src="./User.js"></script>
+    <script type="text/javascript" src="./UserWebService.js"></script>
+
+    <script>
+      if (localStorage.getItem('useron') != null)
+        window.location.href = './usersList.html';
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="loginForm" id="loginForm">
+        <h1>Login</h1>
+        <div class="inputGroup"><input type="text" id="userName" /></div>
+        <div class="inputGroup"><input type="password" id="password" /></div>
+        <button id="loginButton">Login</button>
+      </div>
+      <div class="loginForm" id="loginForm">
+        <h1>Register</h1>
+        <div class="inputGroup">
+          <input type="text" id="registerFirstName" />
+        </div>
+        <div class="inputGroup">
+          <input type="text" id="registerLastName" />
+        </div>
+        <div class="inputGroup">
+          <input type="text" id="RegisterUserName" />
+        </div>
+        <div class="inputGroup">
+          <input type="password" id="registerPassword" />
+        </div>
+        <button id="registerButton">register</button>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

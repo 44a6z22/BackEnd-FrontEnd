@@ -1,0 +1,7 @@
+C:\Users\bureau4\source\repos\UserWebservice\UsersWebServiceClient\bin\Debug\UsersWebServiceClient.exe.config
+C:\Users\bureau4\source\repos\UserWebservice\UsersWebServiceClient\bin\Debug\UsersWebServiceClient.exe
+C:\Users\bureau4\source\repos\UserWebservice\UsersWebServiceClient\bin\Debug\UsersWebServiceClient.pdb
+C:\Users\bureau4\source\repos\UserWebservice\UsersWebServiceClient\obj\Debug\UsersWebServiceClient.csproj.CoreCompileInputs.cache
+C:\Users\bureau4\source\repos\UserWebservice\UsersWebServiceClient\obj\Debug\UsersWebServiceClient.exe
+C:\Users\bureau4\source\repos\UserWebservice\UsersWebServiceClient\obj\Debug\UsersWebServiceClient.pdb
+C:\Users\bureau4\source\repos\UserWebservice\UsersWebServiceClient\obj\Debug\UsersWebServiceClient.csprojAssemblyReference.cache
