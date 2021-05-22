@@ -2,9 +2,6 @@ let userWebService = new UserWebService(
   'https://localhost:44353/UsersWebService.asmx',
 );
 
-document.getElementById('loginButton').addEventListener('click', login);
-document.getElementById('registerButton').addEventListener('click', register);
-
 const loginUserName = document.getElementById('userName');
 const loginPassword = document.getElementById('password');
 const registerFirstName = document.getElementById('registerFirstName');
@@ -73,3 +70,6 @@ userWebService.getUsers().then((data) => {
 function logout() {
   localStorage.clear();
 }
+
+document.getElementById('loginButton').addEventListener('click', login);
+document.getElementById('registerButton').addEventListener('click', register);
