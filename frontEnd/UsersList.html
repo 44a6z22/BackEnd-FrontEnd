@@ -12,7 +12,7 @@
         window.location.href = './index.html';
     </script>
     <style>
-      form {
+      logout-btn {
         float: right;
       }
       .container {
@@ -27,9 +27,8 @@
     </style>
   </head>
   <body>
-    <form action="" method="post">
-      <input type="submit" onclick="logout();" value="logout" />
-    </form>
+    <button class="logout-btn" onclick="logout();">logout</button>
+
     <h2 style="text-align: center">UsersList</h2>
     <div class="container">
       <table border="1" id="body">

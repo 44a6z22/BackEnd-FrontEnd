@@ -69,6 +69,7 @@ userWebService.getUsers().then((data) => {
 
 function logout() {
   localStorage.clear();
+  window.location.href = './index.html';
 }
 
 document.getElementById('loginButton').addEventListener('click', login);

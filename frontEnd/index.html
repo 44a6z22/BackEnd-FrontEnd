@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="./style/style.css" />
     <link
       rel="stylesheet"
@@ -26,13 +26,14 @@
     </script>
   </head>
   <body class="flex flex-col justify-around h-full items-center bg-black-mat">
-    <!-- <h2 class="8">HDCE WEBSERVICE</h2> -->
     <div
       id="mainContainer"
       class="
         mx-auto
         container
-        flex flex-row
+        flex
+        sm:flex-row
+        flex-col
         justify-around
         items-center
         w-full
@@ -43,8 +44,9 @@
         class="
           loginForm
           shadow-2xl
-          w-2/5
-          h-2/5
+          sm:w-2/5
+          w-4/5
+          h-3/5
           flex flex-col
           items-center
           justify-around
@@ -69,6 +71,7 @@
             class="
               inputGroup
               p-4
+              bg-white
               rounded rounded-md
               shadow-xl
               borders-top-sides
@@ -80,11 +83,10 @@
               id="userName"
               placeholder="Username ..."
               class="
-                text-white
                 w-full
                 border-none
                 bg-transparent
-                placeholder-white
+                placeholder-black
                 outline-none
                 focus:outline-none
               "
@@ -95,6 +97,7 @@
             class="
               inputGroup
               w-full
+              bg-white
               p-4
               borders-sides
               rounded rounded-md
@@ -112,31 +115,21 @@
                 rounded
                 bg-transparent
                 outline-none
-                placeholder-white
-                text-white
+                placeholder-black
                 focus:outline-none
-                text-white
               "
               required
             />
           </div>
           <button
             id="loginButton"
-            class="
-              w-full
-              rounded-md
-              shadow-xl
-              my-2
-              text-white
-              py-3
-              bg-black-mat
-            "
+            class="w-full rounded-md shadow-xl my-2 text-white p-4 bg-black-mat"
           >
             Login
           </button>
         </div>
       </div>
-      <div iv class="w-1/5 flex flex-row justify-center">
+      <div iv class="w-1/5 flex flex-row justify-center my-3">
         <i class="fas fa-yin-yang text-7xl text-white cursor-pointer" id="lmao">
         </i>
       </div>
@@ -145,7 +138,9 @@
           loginForm
           shadow-xl
           w-2/5
-          h-2/5
+          sm:w-2/5
+          w-4/5
+          h-3/5
           flex flex-col
           items-center
           justify-center
@@ -165,14 +160,23 @@
             justify-center
           "
         >
-          <div class="inputGroup p-3 m-1 shadow-md rounded rounded-md w-full">
+          <div
+            class="
+              inputGroup
+              p-4
+              my-3
+              shadow-md
+              rounded rounded-md
+              w-full
+              bg-white
+            "
+          >
             <input
               type="text"
               id="registerFirstName"
               class="
                 w-full
-                text-white
-                placeholder-white
+                placeholder-black
                 border-none
                 bg-transparent
                 outline-none
@@ -181,13 +185,22 @@
               placeholder="Firstname ..."
             />
           </div>
-          <div class="inputGroup p-3 m-1 shadow-md rounded rounded-md w-full">
+          <div
+            class="
+              inputGroup
+              p-4
+              my-3
+              shadow-md
+              rounded rounded-md
+              w-full
+              bg-white
+            "
+          >
             <input
               type="text"
               class="
                 w-full
-                text-white
-                placeholder-white
+                placeholder-black
                 border-none
                 bg-transparent
                 outline-none
@@ -197,13 +210,22 @@
               placeholder="Lastname ..."
             />
           </div>
-          <div class="inputGroup p-3 shadow-md rounded rounded-md m-1 w-full">
+          <div
+            class="
+              inputGroup
+              p-4
+              shadow-md
+              rounded rounded-md
+              my-3
+              w-full
+              bg-white
+            "
+          >
             <input
               type="text"
               class="
                 w-full
-                text-white
-                placeholder-white
+                placeholder-black
                 border-none
                 bg-transparent
                 outline-none
@@ -213,13 +235,22 @@
               placeholder="Username ..."
             />
           </div>
-          <div class="inputGroup shadow-md rounded rounded-md p-3 m-1 w-full">
+          <div
+            class="
+              inputGroup
+              shadow-md
+              rounded rounded-md
+              p-4
+              my-3
+              w-full
+              bg-white
+            "
+          >
             <input
               type="password"
               class="
                 w-full
-                text-white
-                placeholder-white
+                placeholder-black
                 border-none
                 bg-transparent
                 outline-none
@@ -231,7 +262,7 @@
           </div>
           <button
             id="registerButton"
-            class="w-full rounded-md py-3 bg-black-mat text-white"
+            class="w-full rounded-md p-4 bg-black-mat text-white my-3"
           >
             register
           </button>
